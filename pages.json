@@ -1,0 +1,48 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7e7e7e",
+		"selectedColor": "#17c9cd",
+		"borderStyle": "black",
+		"fontSize": "14px",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			
+			"iconPath": "/static/img/jishiben.png",
+			"selectedIconPath": "/static/img/jishiben1.png",
+			"text": "我的违章"
+		 },{
+			"pagePath": "pages/index/index",
+			
+			"iconPath": "/static/img/jishiben.png",
+			"selectedIconPath": "/static/img/jishiben1.png",
+			"text": "我的车辆"
+		 },{
+			"pagePath": "pages/index/index",
+			
+			"iconPath": "/static/img/jishiben.png",
+			"selectedIconPath": "/static/img/jishiben1.png",
+			"text": "我的车辆"
+		 }, {
+		 	"pagePath": "pages/syin/syin",
+		 	"iconPath": "/static/img/jishiben.png",
+		 	"selectedIconPath": "/static/img/jishiben1.png",
+		 	"text": "违章举报"
+		 }]
+	}
+}
